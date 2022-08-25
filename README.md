@@ -15,3 +15,8 @@ A boilerplate for getting started with node.js &amp; typescript.
 ### Production startup
 
 1. running `npm start` will execute the build command, and then execute the compiled JS at `build/index.js`
+
+### Dependencies
+
+- `eslint-config-prettier` Turns off all ESLint rules that have the potential to interfere with Prettier rules.
+- `eslint-plugin-prettier` Turns Prettier rules into ESLint rules
