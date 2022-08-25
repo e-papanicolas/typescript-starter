@@ -8,6 +8,13 @@ A boilerplate for getting started with node.js &amp; typescript.
 
 2. running `npx tsc` will compile the code
 
+### Dependencies
+
+- `eslint-config-prettier` Turns off all ESLint rules that have the potential to interfere with Prettier rules.
+- `eslint-plugin-prettier` Turns Prettier rules into ESLint rules
+
+## Production
+
 ### Creating production builds
 
 1. running `npm build` will rimraf will remove old build folder before TypeScript compiler emits new code to dist
@@ -15,8 +22,3 @@ A boilerplate for getting started with node.js &amp; typescript.
 ### Production startup
 
 1. running `npm start` will execute the build command, and then execute the compiled JS at `build/index.js`
-
-### Dependencies
-
-- `eslint-config-prettier` Turns off all ESLint rules that have the potential to interfere with Prettier rules.
-- `eslint-plugin-prettier` Turns Prettier rules into ESLint rules
