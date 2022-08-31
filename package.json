@@ -5,10 +5,10 @@
   "author": "Eleni Papanicolas",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start:dev": "nodemon",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/main.js",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "lint": "eslint . --ext .ts"
   },
